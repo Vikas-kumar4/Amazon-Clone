@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    line-height: 19px!important;
+    overflow-x: hidden;
+}
+/* Section 1 */
+#Sec-Doc {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Arranging Logo */
+.Sec-head {
+    width: 100%;
+    height: 50px;
+    margin: 4px 0px 18px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Sec-logo {
+    width: 113px;
+    height: 31px;
+}
+.logo {
+    width: 100%;
+    height: 100%;
+    background-image: url("Amazon-Doc.png");
+    background-position: -5px -130px;
+    background-size: 400px 750px;
+}
+/* Inner-Box */
+.a-section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+#main-sec {
+    width: 700px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-Box {
+    width: 350px;
+    height: 100%;
+    padding: 14px 18px;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+}
+.inner-Box h1 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    color: #111;
+}
+.row-1,.row-2,.row-3,.row-4,.row-5 {
+    width: 100%;
+    margin-bottom: 14px!important;
+}
+label,span {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #111;
+    display: block;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+.a-input-txt,input[type=text],input[type=email],input[type=password] {
+    width: 100%;
+    border: none;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    outline: 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+    background-color: #FFF;
+    height: 31px;
+    padding: 3px 7px;
+    line-height: normal;
+}
+/* Adding Box Shadow */
+.a-input-txt,input[type=text]:focus,input[type=email]:focus,input[type=password]:focus {
+    border-color: #007185;
+    background-color: #F7FEFF;
+    box-shadow: 0 0 0 3px #c8f3fa, 0 1px 2px rgba(15,17,17,.15) inset;
+}
+.msg-alert {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 6px;
+}
+.pass-ex {
+    width: 13px;
+    height: 14px;
+    background-image: url("Amazon-Doc.png");
+    background-size: 400px 750px;
+    background-repeat: no-repeat;
+    background-position: -166px -130px;
+}
+.msg-del {
+    font-size: 0.70rem;
+    color: #2B2B2B;
+}
+.inner-Box button {
+    border: none;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #FFD814;
+    border-radius: 8px;
+    background-color: #FCD200;
+    padding: 1px 6px;
+    color: #111;
+    box-shadow: 0 2px 5px 0 rgba(213,217,217,.5);
+    border-color: #FCD200;
+}
+.inner-Box button a {
+    text-decoration: none;
+    color: #111;
+}
+.inner-Box button:hover {
+    background-color: #F2C200;
+}
+.condition-trm {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    margin-top: 18px;
+    color: #111;
+    margin-bottom: 18px;
+}
+.condition-trm a {
+    text-decoration: none;
+    color: #0066C0;
+}
+
+.condition-trm a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #c45500;
+}
+.set-bd {
+    height: 1px;
+    background-color: transparent;
+    border-top: 1px solid #e7e7e7;
+    margin-bottom: 14px;
+}
+.new-ac-txt {
+    font-size: 0.82rem;
+    color: #0066C0;
+    line-height: 1.5;
+    margin-bottom: 14px;
+}
+.new-ac-txt:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #c45500;
+}
+.row-6 {
+    font-size: 0.82rem;
+    background: linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+    color: #111;
+}
+.arrow-key {
+    background-image: url("Amazon-Doc.png");
+    background-size: 400px 750px;
+    background-repeat: no-repeat;
+    background-position: -346px -86px;
+    position: absolute;
+    width: 3px;
+    height: 6px;
+    position: relative;
+    left: 64%;
+    top: -10px;
+}
+.sign-in a {
+    text-decoration: none;
+    color:#0066C0;
+}
+.sign-in a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #c45500;
+}
+/* Autho Sec */
+#foot-panel1 {
+    width: 100%;
+    height: 45px;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #FBFBFB;
+}
+.autho-sec {
+    margin-bottom: 10px;
+}
+.autho-sec a {
+    text-decoration: none;
+    color:#0066C0;
+    margin-right: 16px;
+}
+.autho-sec a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color:#c45500;
+}
+.autho-cp-sec {
+    color: #555!important;
+}
