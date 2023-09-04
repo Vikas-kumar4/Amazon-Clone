@@ -311,6 +311,9 @@ body {
     padding-bottom: 20px;
     cursor: pointer;
 }
+.user-Del:hover {
+    color: #C7511F;
+}
 .Login-sec {
     width: 100%;
     height: auto;
