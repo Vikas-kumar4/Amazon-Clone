@@ -311,9 +311,6 @@ body {
     padding-bottom: 20px;
     cursor: pointer;
 }
-.user-Del:hover {
-    color: #C7511F;
-}
 .Login-sec {
     width: 100%;
     height: auto;
@@ -338,6 +335,9 @@ body {
 .Cus-Dt a {
     text-decoration: none;
     color: #007185;
+}
+.Cus-Dt a:hover {
+    color: #C7511F;
 }
 /* Footer Section */
 .Foot-Panel1 {
