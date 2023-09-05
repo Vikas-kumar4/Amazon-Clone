@@ -329,6 +329,10 @@ body {
     border: none;
     cursor: pointer;
 }
+.Login-sec button a {
+    text-decoration: none;
+    color: #111;
+}
 .Cus-Dt {
     font-size: 0.70rem;
 }
@@ -348,6 +352,9 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+.Foot-Panel1:hover {
+    background-color: #485769;
 }
 .Foot-Panel1 p {
     font-size: 0.82rem;
